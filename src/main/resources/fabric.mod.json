@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "endstone",
+  "version": "${version}",
+
+  "name": "End Stone",
+  "description": "Adds End Stone. Renames Vanilla's End Stone to End Cobblestone",
+  "authors": [
+    "Andrew Grant (Andrew6rant)"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/endstone",
+    "sources": "https://github.com/Andrew6rant/End-Stone",
+    "issues": "https://github.com/Andrew6rant/End-Stone/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/endstone/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.Andrew6rant.endstone.Endstone"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

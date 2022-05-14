@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "endstone:block/end_stone"
+      },
+      {
+        "model": "endstone:block/end_stone_mirrored"
+      },
+      {
+        "model": "endstone:block/end_stone",
+        "y": 180
+      },
+      {
+        "model": "endstone:block/end_stone_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}
