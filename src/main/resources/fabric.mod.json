@@ -23,6 +23,9 @@
       "io.github.Andrew6rant.endstone.Endstone"
     ]
   },
+  "mixins": [
+    "endstone.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
